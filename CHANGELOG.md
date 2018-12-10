@@ -1,3 +1,7 @@
+### "0.2.2"
+
+- Increase visibility of line numbers and line highlight
+
 ### "0.2.1"
 
 - JSON key level colors added to Italic theme version
