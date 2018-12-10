@@ -1,3 +1,8 @@
+### "0.2.1"
+
+- JSON key level colors added to Italic theme version
+- Corrected theme names in .json files
+
 ### "0.2.0"
 
 - Added icon
