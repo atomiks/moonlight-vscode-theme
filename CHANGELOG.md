@@ -1,6 +1,7 @@
 ### "0.2.2"
 
 - Increase visibility of line numbers and line highlight
+- Increase visibility of bottom bar text
 
 ### "0.2.1"
 
