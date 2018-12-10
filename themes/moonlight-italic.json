@@ -1,5 +1,5 @@
 {
-  "name": "Material-Theme-Palenight",
+  "name": "Moonlight",
   "type": "dark",
   "tokenColors": [
     {
@@ -479,7 +479,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff855b"
+        "foreground": "#c3f293"
       }
     },
     {
@@ -488,7 +488,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#c3f293"
+        "foreground": "#f989d3"
       }
     },
     {
