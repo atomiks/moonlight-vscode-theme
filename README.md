@@ -1,6 +1,6 @@
 # Moonlight 🌌
 
-![Preview](https://github.com/sdras/night-owl-vscode-theme/raw/master/preview.png)
+![Preview](https://github.com/atomiks/moonlight-vscode-theme/raw/master/preview.png)
 
 # Installation
 
