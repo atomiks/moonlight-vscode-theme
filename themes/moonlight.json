@@ -327,6 +327,16 @@
       }
     },
     {
+      "name": "HTML Doctype",
+      "scope": [
+        "meta.tag.metadata.doctype entity.name.tag",
+        "meta.tag.metadata.doctype entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#b69fff"
+      }
+    },
+    {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class", "meta.property-name"],
       "settings": {
