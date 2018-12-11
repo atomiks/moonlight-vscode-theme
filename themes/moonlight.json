@@ -4,7 +4,7 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#1f2338",
+        "background": "#212539",
         "foreground": "#ffffff"
       }
     },
@@ -34,6 +34,13 @@
       "scope": ["constant.other.color"],
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Text",
+      "scope": ["text", "meta.jsx.children"],
+      "settings": {
+        "foreground": "#e0eff5"
       }
     },
     {
@@ -184,7 +191,7 @@
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#ff855b"
+        "foreground": "#ff9668"
       }
     },
     {
@@ -201,7 +208,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#e6b7ff"
+        "foreground": "#f0c4ff"
       }
     },
     {
@@ -248,13 +255,6 @@
       "scope": ["support.class.component"],
       "settings": {
         "foreground": "#f989d3"
-      }
-    },
-    {
-      "name": "JSX Children",
-      "scope": ["meta.jsx.children"],
-      "settings": {
-        "foreground": "#e0eff5"
       }
     },
     {
@@ -455,7 +455,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f989d3"
+        "foreground": "#f0c4ff"
       }
     },
     {
@@ -464,7 +464,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff855b"
+        "foreground": "#ffdf9b"
       }
     },
     {
@@ -473,7 +473,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#82abff"
+        "foreground": "#b69fff"
       }
     },
     {
@@ -483,24 +483,6 @@
       ],
       "settings": {
         "foreground": "#fa768f"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#b69fff"
-      }
-    },
-    {
-      "name": "JSON Key - Level 8",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C3E88D"
       }
     },
     {
