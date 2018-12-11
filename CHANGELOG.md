@@ -1,3 +1,10 @@
+### "0.3.0
+
+- Add HTML doctype as purple
+- Change JSON key colors so they never conflict with the value, limit color changes to 6 levels deep
+- Sync italic theme UI colors with standard
+- Fix HTML text color, same as React JSX Children
+
 ### "0.2.2"
 
 - Increase visibility of line numbers and line highlight
