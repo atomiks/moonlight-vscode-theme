@@ -1,3 +1,12 @@
+### 0.3.1
+
+- `Infinity` and `NaN` made orange (numbers)
+- Distinguish JSON key level 0 and 1
+- Remove array scope from object literal brace highlighting
+- Improved CSS highlighting consistency (property names, values, keyframes)
+- Markdown inline code made less grey
+- Other minor adjustments
+
 ### 0.3.0
 
 - Add HTML doctype as purple
