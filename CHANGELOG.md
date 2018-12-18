@@ -1,3 +1,16 @@
+### 0.4.0
+
+- Regex color improvements
+- Base foreground color tinted to correct color
+- Cursor color made blue
+- Made non-editor UI colors slightly darker with dark borders
+- Changed the aqua foreground color used everywhere to blue
+- List view/focus background made blue
+- Slight widget/scroll indicator shadows
+- Active tab border made blue
+- Better find highlight match colors
+- Bracket match border made blue
+
 ### 0.3.1
 
 - `Infinity` and `NaN` made orange (numbers)
