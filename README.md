@@ -1,6 +1,6 @@
 # Moonlight 🌌
 
-<img src="https://github.com/atomiks/moonlight-vscode-theme/raw/master/preview.png" alt="Preview" height="650">
+<img src="https://github.com/atomiks/moonlight-vscode-theme/raw/master/preview.jpg" alt="Preview" height="3000">
 
 # Installation
 
