@@ -1,3 +1,14 @@
+### 0.5.0
+
+- New preview image
+- Made background colors less saturated so blues stand out more
+- Object property colors altered
+- Changed flow keywords to a brighter purple for emphasis and are now italic in the italic theme
+- Reds made less pink
+- Git diff colors increased in visibility, untracked made same color as strings
+- Various editor UI improvements
+- Types color improved
+
 ### 0.4.0
 
 - Regex color improvements
