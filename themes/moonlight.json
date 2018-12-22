@@ -163,11 +163,14 @@
     },
     {
       "name": "Object Property",
-      "scope": [
-        "support.variable.property",
-        "variable.other.property",
-        "variable.other.object.property"
-      ],
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#a4e9ff"
+      }
+    },
+    {
+      "name": "Object Property - Last",
+      "scope": ["support.variable.property", "variable.other.property"],
       "settings": {
         "foreground": "#a7c6e8"
       }
