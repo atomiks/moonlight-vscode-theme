@@ -1,3 +1,16 @@
+### 0.7.0
+
+- New preview image
+- Change main blue hue to be slightly closer to cyan than purple
+- Make `constant.language` light red rather than pink
+- Template literal punctuation made red
+- `keyword.flow` made a pale blue instead of bright purple
+- Comparison and logical operators made purple
+
+### 0.6.0
+
+- Various color tweaks
+
 ### 0.5.0
 
 - New preview image
