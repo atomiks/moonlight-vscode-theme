@@ -1,0 +1,12 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.className {
+  color: red;
+  transform: translateX(100px);
+}
+
+.className:hover {
+  opacity: 0.5 !important;
+}
