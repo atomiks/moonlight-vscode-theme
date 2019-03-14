@@ -1,3 +1,9 @@
+### 0.8.0
+
+- Introduce a new theme - Moonlight II
+- Change list focus background to different color for readability
+- New preview image
+
 ### 0.7.0
 
 - New preview image
