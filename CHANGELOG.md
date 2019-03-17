@@ -1,3 +1,7 @@
+### 0.8.1
+
+- Minor fixes to Moonlight II for certain scopes
+
 ### 0.8.0
 
 - Introduce a new theme - Moonlight II
