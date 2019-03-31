@@ -194,12 +194,17 @@
         "string.quoted.docstring"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#7e8eda"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "support.variable",
+        "string constant.other.placeholder"
+      ],
       "settings": {
         "foreground": "#cdd6f5"
       }
@@ -266,9 +271,9 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["Keyword", "Storage"],
+      "scope": ["keyword.control", "storage"],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -298,12 +303,11 @@
         "keyword.control.export",
         "keyword.control.default",
         "keyword.control.as",
-        "keyword.control.flow",
-        "punctuation.accessor",
-        "punctuation.separator",
+        "keyword.other.new",
+        "punctuation",
         "punctuation.definition.string",
         "punctuation.support.type.property-name",
-        "text.html.vue-html meta.tag.inline.any",
+        "text.html.vue-html meta.tag",
         "punctuation.definition.keyword",
         "punctuation.terminator.rule",
         "punctuation.definition.entity",
@@ -325,7 +329,7 @@
       "name": "Keyword Control",
       "scope": ["keyword.control"],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -351,7 +355,7 @@
       "name": "Support Function",
       "scope": ["support.function"],
       "settings": {
-        "foreground": "#25c8e5"
+        "foreground": "#0ec3e3"
       }
     },
     {
@@ -373,11 +377,12 @@
       "scope": [
         "variable.other.constant",
         "constant.language",
+        "keyword.other.type.php",
+        "storage.type.php",
         "support.constant",
         "constant.character",
         "constant.escape",
-        "keyword.other.unit",
-        "keyword.other"
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#ff98a4"
@@ -388,7 +393,9 @@
       "scope": [
         "constant.numeric",
         "constant.language.boolean",
-        "constant.language.json"
+        "constant.language.json",
+        "constant.language.infinity",
+        "constant.language.nan"
       ],
       "settings": {
         "foreground": "#ff9e64"
@@ -398,7 +405,8 @@
       "name": "Function Argument",
       "scope": [
         "variable.parameter.function.language.special",
-        "variable.parameter"
+        "variable.parameter",
+        "meta.function.parameter variable"
       ],
       "settings": {
         "foreground": "#f7a4ec"
@@ -507,6 +515,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#ff757f"
       }
     },
@@ -514,6 +523,7 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -531,6 +541,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#c3a2ff"
       }
     },
@@ -551,7 +562,8 @@
         "meta.tag.metadata.doctype entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#baacff"
+        "fontStyle": "italic",
+        "foreground": "#c3a2ff"
       }
     },
     {
@@ -655,6 +667,7 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -671,6 +684,7 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#FF5370"
       }
     },
@@ -725,7 +739,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#25c8e5"
+        "foreground": "#0ec3e3"
       }
     },
     {
@@ -757,13 +771,29 @@
     },
     {
       "name": "Plain Punctuation",
+      "scope": ["punctuation.definition.list_item.markdown"],
+      "settings": {
+        "foreground": "#a0c4ff"
+      }
+    },
+    {
+      "name": "Block Punctuation",
       "scope": [
-        "punctuation",
-        "punctuation.definition.list_item.markdown",
-        "meta.brace"
+        "meta.block",
+        "meta.brace",
+        "punctuation.definition.block",
+        "punctuation.definition.use",
+        "punctuation.definition.class",
+        "punctuation.definition.begin.bracket",
+        "punctuation.definition.end.bracket",
+        "punctuation.definition.parameters",
+        "punctuation.definition.arguments",
+        "punctuation.definition.dictionary",
+        "punctuation.definition.array",
+        "punctuation.section"
       ],
       "settings": {
-        "foreground": "#a7bdf3"
+        "foreground": "#a0c4ff"
       }
     },
     {
