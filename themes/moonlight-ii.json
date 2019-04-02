@@ -194,7 +194,6 @@
         "string.quoted.docstring"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#7e8eda"
       }
     },
@@ -273,7 +272,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword.control", "storage"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -329,7 +328,7 @@
       "name": "Keyword Control",
       "scope": ["keyword.control"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -515,7 +514,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#ff757f"
       }
     },
@@ -523,7 +522,7 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#82AAFF"
       }
     },
@@ -541,7 +540,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#c3a2ff"
       }
     },
@@ -562,7 +561,7 @@
         "meta.tag.metadata.doctype entity.other.attribute-name"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#c3a2ff"
       }
     },
@@ -667,7 +666,7 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#82AAFF"
       }
     },
@@ -684,7 +683,7 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#FF5370"
       }
     },
