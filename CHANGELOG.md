@@ -1,3 +1,9 @@
+## 0.8.3
+
+### Moonlight II
+
+- Fix Moonlight II being the same as Italic variant
+
 ## 0.8.2
 
 ### Moonlight II
