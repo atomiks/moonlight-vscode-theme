@@ -1,3 +1,14 @@
+## 0.9.0
+
+### Moonlight II
+
+- JSON key colors altered
+- Objects are yellow
+- Object property access is now greyed rather than cyan
+- Function calls and function definitions are distinguished with different blues
+- Control keywords are cyan instead of purple
+- Entity types and regexes are now bright cyan to distinguish them from punctuation or constants
+
 ## 0.8.3
 
 ### Moonlight II
