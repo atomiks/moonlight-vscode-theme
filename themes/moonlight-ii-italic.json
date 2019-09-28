@@ -206,7 +206,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#cdd6f5"
+        "foreground": "#cddaf3"
       }
     },
     {
@@ -260,7 +260,6 @@
       "name": "Keyword, Storage",
       "scope": [
         "keyword",
-        "keyword.control",
         "storage.type",
         "storage.modifier",
         "keyword.other.important"
@@ -298,12 +297,7 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.operator",
-        "keyword.control.import",
-        "keyword.control.from",
-        "keyword.control.export",
-        "keyword.control.default",
-        "keyword.control.as",
-        "keyword.other.new",
+        "keyword.control",
         "punctuation",
         "punctuation.definition.string",
         "punctuation.support.type.property-name",
@@ -315,6 +309,7 @@
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
+        "punctuation.definition.block.tag",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
@@ -343,19 +338,18 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#8ba1ff"
       }
     },
     {
       "name": "Support Function",
-      "scope": ["support.function"],
+      "scope": ["support.function", "meta.function-call entity.name.function"],
       "settings": {
-        "foreground": "#0ec3e3"
+        "foreground": "#39c5ff"
       }
     },
     {
@@ -398,7 +392,7 @@
         "constant.language.nan"
       ],
       "settings": {
-        "foreground": "#ff9e64"
+        "foreground": "#ff995e"
       }
     },
     {
@@ -430,6 +424,13 @@
       }
     },
     {
+      "name": "Object",
+      "scope": ["variable.other.object"],
+      "settings": {
+        "foreground": "#ffc777"
+      }
+    },
+    {
       "name": "Object Key",
       "scope": [
         "meta.object-literal.key",
@@ -439,19 +440,25 @@
         "meta.field.declaration.ts variable.object.property"
       ],
       "settings": {
-        "foreground": "#73daca"
+        "foreground": "#56d7cf"
+      }
+    },
+    {
+      "name": "Nested Object Property",
+      "scope": ["meta.object.member", "variable.other.object.property"],
+      "settings": {
+        "foreground": "#b8c7fc"
       }
     },
     {
       "name": "Object Property",
       "scope": [
-        "variable.other.object.property",
         "variable.other.property",
         "support.variable.property",
         "support.variable.property.dom"
       ],
       "settings": {
-        "foreground": "#8fd6ff"
+        "foreground": "#b8c7fc"
       }
     },
     {
@@ -471,10 +478,10 @@
       }
     },
     {
-      "name": "Entity Types",
+      "name": "Entity types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#ff98a4"
+        "foreground": "#b4f9f8"
       }
     },
     {
@@ -615,7 +622,7 @@
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#b4f9f8"
       }
     },
     {
@@ -627,7 +634,10 @@
     },
     {
       "name": "Regular Expressions - Character Class",
-      "scope": ["constant.other.character-class.regexp"],
+      "scope": [
+        "constant.other.character-class.regexp",
+        "keyword.control.anchor.regexp"
+      ],
       "settings": {
         "foreground": "#c3a2ff"
       }
@@ -643,7 +653,7 @@
       "name": "Regular Expressions - Quantifier",
       "scope": ["keyword.operator.quantifier.regexp"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#f7a4ec"
       }
     },
     {
@@ -703,7 +713,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#73daca"
+        "foreground": "#39c5ff"
       }
     },
     {
@@ -712,7 +722,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff98a4"
+        "foreground": "#ff757f"
       }
     },
     {
@@ -721,7 +731,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#c3a2ff"
+        "foreground": "#f7a4ec"
       }
     },
     {
@@ -730,7 +740,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff757f"
+        "foreground": "#ffc777"
       }
     },
     {
@@ -739,7 +749,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#0ec3e3"
+        "foreground": "#56d7cf"
       }
     },
     {
@@ -748,32 +758,14 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f7a4ec"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#ffc777"
-      }
-    },
-    {
-      "name": "JSON Key - Level 8",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#82AAFF"
       }
     },
     {
       "name": "Plain Punctuation",
       "scope": ["punctuation.definition.list_item.markdown"],
       "settings": {
-        "foreground": "#a0c4ff"
+        "foreground": "#b8c7fc"
       }
     },
     {
@@ -793,7 +785,7 @@
         "punctuation.section"
       ],
       "settings": {
-        "foreground": "#a0c4ff"
+        "foreground": "#b8c7fc"
       }
     },
     {
