@@ -7,6 +7,25 @@
 - Moonlight (regular and italics)
 - Moonlight II (regular and italics)
 
+## How do I enable the glow seen in the screenshot?
+
+[Read instructions here](https://github.com/robb0wen/synthwave-vscode#to-enable-the-glow).
+
+`moonlight.css` stylesheet:
+
+```css
+.mtk14,
+.mtk16 {
+  color: #9bb5ff;
+  text-shadow: 0 0 10px #2f36ff, 0 0 22px #9d91ff, 0 0 2px black;
+}
+
+.mtk15 {
+  color: #67d2ff;
+  text-shadow: 0 0px 15px #12baff, 0 0px 2px black;
+}
+```
+
 ## Installation
 
 1.  Install [Visual Studio Code](https://code.visualstudio.com/)
