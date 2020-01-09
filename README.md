@@ -4,27 +4,8 @@
 
 ## Variants
 
-- Moonlight (regular and italics)
-- Moonlight II (regular and italics)
-
-## How do I enable the glow seen in the screenshot?
-
-[Read instructions here](https://github.com/robb0wen/synthwave-vscode#to-enable-the-glow).
-
-`moonlight.css` stylesheet:
-
-```css
-.mtk13,
-.mtk15 {
-  color: #9bb5ff;
-  text-shadow: 0 0 10px #2f36ff, 0 0 22px #9d91ff, 0 0 2px black;
-}
-
-.mtk14 {
-  color: #67d2ff;
-  text-shadow: 0 0px 15px #12baff, 0 0px 2px black;
-}
-```
+- Moonlight (regular and italics) (legacy)
+- Moonlight II (regular and italics) (**recommended**)
 
 ## Installation
 
@@ -35,3 +16,23 @@
 5.  Click **Install** to install it
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > Pick your Moonlight variant
+
+## How do I enable the glow seen in the screenshot?
+
+[Read instructions here](https://github.com/robb0wen/synthwave-vscode#to-enable-the-glow).
+
+`moonlight.css` stylesheet:
+
+```css
+.mtk11 {
+  color: #91bbff;
+  text-shadow: 0 0 10px #2f36ff, 0 0 22px #9d91ff, 0 0 2px black;
+}
+
+.mtk12 {
+  color: #67d2ff;
+  text-shadow: 0 0 15px #12baff, 0 0 2px black;
+}
+```
+
+⚠️ The `mtk` token numbers (11 and 12 above – which represent the two function colors) can change when the theme or VS Code version is updated, causing incorrect colors. When new releases arrive, make sure to visit the README for the updated stylesheet or make an issue if they change due to VS Code – I will update them accordingly.
