@@ -1,3 +1,18 @@
+## 0.10.0
+
+### Moonlight II
+
+Themes are now auto-generated.
+
+- UI colors slightly desaturated to make syntax stand out more
+- Various color tweaks
+- Fix focus background in lists
+- Array punctuation cyan
+- Entity types orange
+- Better function colors
+- Panel border
+- Fix warning colors
+
 ## 0.9.0
 
 ### Moonlight II
