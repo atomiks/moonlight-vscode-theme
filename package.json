@@ -38,16 +38,6 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonlight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight.json"
-      },
-      {
-        "label": "Moonlight Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight-italic.json"
-      },
-      {
         "label": "Moonlight II",
         "uiTheme": "vs-dark",
         "path": "./themes/moonlight-ii.json"
@@ -56,6 +46,16 @@
         "label": "Moonlight II Italic",
         "uiTheme": "vs-dark",
         "path": "./themes/moonlight-ii-italic.json"
+      },
+      {
+        "label": "Moonlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight.json"
+      },
+      {
+        "label": "Moonlight Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-italic.json"
       }
     ]
   }
