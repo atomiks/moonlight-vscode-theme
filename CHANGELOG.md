@@ -1,3 +1,11 @@
+## 0.10.1
+
+### Moonlight II
+
+- Fix terminal `ansiBlack` color
+- Fix `editorSuggestWidget` selected background and text colors
+- Tweak sky blue color
+
 ## 0.10.0
 
 ### Moonlight II
