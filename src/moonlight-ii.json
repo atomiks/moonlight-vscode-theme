@@ -459,6 +459,38 @@
       }
     },
     {
+      "name": "Haskell Constants",
+      "scope": ["source.haskell constant.other.haskell"],
+      "settings": {
+        "foreground": "--moonlight-light-red"
+      }
+    },
+    {
+      "name": "Haskell Imports",
+      "scope": ["source.haskell meta.import.haskell entity.name.namespace"],
+      "settings": {
+        "foreground": "--moonlight-gray-10"
+      }
+    },
+    {
+      "name": "Types Fixes",
+      "scope": [
+        "source.haskell storage.type",
+        "source.c storage.type",
+        "source.java storage.type"
+      ],
+      "settings": {
+        "foreground": "--moonlight-yellow"
+      }
+    },
+    {
+      "name": "Lambda Arrow",
+      "scope": ["storage.type.function"],
+      "settings": {
+        "foreground": "--moonlight-purple"
+      }
+    },
+    {
       "name": "Class, Support",
       "scope": [
         "entity.name",
