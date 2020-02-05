@@ -188,7 +188,11 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment", "string.quoted.docstring"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.quoted.docstring"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "--moonlight-indigo"
@@ -196,7 +200,12 @@
     },
     {
       "name": "Variables and Plain Text",
-      "scope": ["variable", "support.variable", "string constant.other.placeholder", "text.html"],
+      "scope": [
+        "variable",
+        "support.variable",
+        "string constant.other.placeholder",
+        "text.html"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-10"
       }
@@ -250,7 +259,12 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier", "keyword.other.important"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.other.important"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -264,7 +278,10 @@
     },
     {
       "name": "Interpolation",
-      "scope": ["punctuation.definition.template-expression", "punctuation.section.embedded"],
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
       "settings": {
         "foreground": "--moonlight-cyan"
       }
@@ -321,7 +338,11 @@
     },
     {
       "name": "Function, Special Method",
-      "scope": ["entity.name.function", "variable.function", "keyword.other.special-method"],
+      "scope": [
+        "entity.name.function",
+        "variable.function",
+        "keyword.other.special-method"
+      ],
       "settings": {
         "foreground": "--moonlight-dark-blue"
       }
@@ -458,7 +479,11 @@
     },
     {
       "name": "Types Fixes",
-      "scope": ["source.haskell storage.type", "source.c storage.type", "source.java storage.type"],
+      "scope": [
+        "source.haskell storage.type",
+        "source.c storage.type",
+        "source.java storage.type"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
@@ -518,7 +543,11 @@
     },
     {
       "name": "Sub-methods",
-      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
@@ -541,7 +570,10 @@
     },
     {
       "name": "meta.method.js",
-      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
       "settings": {
         "foreground": "--moonlight-dark-blue"
       }
@@ -636,7 +668,10 @@
     },
     {
       "name": "Regular Expressions - Character Class",
-      "scope": ["constant.other.character-class.regexp", "keyword.control.anchor.regexp"],
+      "scope": [
+        "constant.other.character-class.regexp",
+        "keyword.control.anchor.regexp"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -689,7 +724,9 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "--moonlight-red"
@@ -697,7 +734,9 @@
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "--moonlight-dark-blue"
       }
@@ -893,7 +932,10 @@
     },
     {
       "name": "Markdown - Fenced Bode Block Variable",
-      "scope": ["markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
+      "scope": [
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-cyan"
       }
