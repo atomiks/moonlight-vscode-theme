@@ -1,3 +1,13 @@
+## 0.10.2
+
+### Moonlight II
+
+- Various color tweaks
+- Improve Haskell syntax highlighting
+- Improve terminal colors
+- Improve `editorOverviewRuler` colors to match git decorations
+- CSS property values are pink and all punctuation is cyan
+
 ## 0.10.1
 
 ### Moonlight II
