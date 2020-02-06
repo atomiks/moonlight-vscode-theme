@@ -3,30 +3,37 @@
   "type": "dark",
   "colors": {
     "foreground": "--moonlight-gray-10",
-    "focusBorder": "--moonlight-dark-blue",
+    "focusBorder": "--moonlight-blue",
     "contrastBorder": "#00000055",
-    "editorCursor.foreground": "--moonlight-dark-blue",
-    "editorRuler.foreground": "--moonlight-gray-666",
+    "editorCursor.foreground": "--moonlight-blue",
+    "editorRuler.foreground": "--moonlight-gray-6bb",
     "scrollbar.shadow": "#00000022",
     "editorLink.activeForeground": "--moonlight-gray-10",
     "selection.background": "--moonlight-gray-10",
-    "progressBar.background": "--moonlight-dark-blue",
+    "progressBar.background": "--moonlight-blue",
     "textLink.foreground": "--moonlight-sky-blue",
     "textLink.activeForeground": "#b2dfff",
     "editorLineNumber.foreground": "--moonlight-gray-6",
     "editorLineNumber.activeForeground": "--moonlight-gray-7",
-    "editorBracketMatch.border": "--moonlight-dark-blue50",
+    "editorBracketMatch.border": "--moonlight-bluebb",
     "editorBracketMatch.background": "--moonlight-gray-4",
     "editorWhitespace.foreground": "--moonlight-gray-1040",
     "editor.background": "--moonlight-gray-4",
     "editor.foreground": "--moonlight-gray-10",
     "editor.lineHighlightBackground": "--moonlight-gray-5",
     "editor.selectionBackground": "--moonlight-gray-750",
-    "editor.selectionHighlightBackground": "#3c4361",
-    "editor.findMatchBackground": "--moonlight-dark-blue55",
-    "editor.findMatchBorder": "#74c6f1bb",
-    "editor.findMatchHighlightBackground": "--moonlight-dark-blue33",
-    "editor.findMatchHighlightBorder": "--moonlight-dark-blue66",
+    "editor.selectionHighlightBackground": "--moonlight-gray-6",
+    "editor.findMatchBackground": "--moonlight-gray-6",
+    "editor.findMatchBorder": "--moonlight-cyan",
+    "editor.findMatchHighlightBackground": "--moonlight-gray-6",
+    "editorOverviewRuler.findMatchForeground": "--moonlight-cyanbb",
+    "editorOverviewRuler.errorForeground": "--moonlight-redcc",
+    "editorOverviewRuler.infoForeground": "--moonlight-sky-blue66",
+    "editorOverviewRuler.warningForeground": "--moonlight-yellowcc",
+    "editorOverviewRuler.modifiedForeground": "--moonlight-blue66",
+    "editorOverviewRuler.addedForeground": "--moonlight-green66",
+    "editorOverviewRuler.deletedForeground": "--moonlight-light-red66",
+    "editorOverviewRuler.bracketMatchForeground": "--moonlight-dark-bluebb",
     "editorOverviewRuler.border": "--moonlight-gray-4",
     "editorHoverWidget.background": "#1b1d2c",
     "editorHoverWidget.border": "#000000aa",
@@ -34,10 +41,10 @@
     "editorIndentGuide.activeBackground": "--moonlight-gray-7aa",
     "editorGroupHeader.tabsBackground": "--moonlight-gray-3",
     "editorGroup.border": "--moonlight-gray-2",
-    "editorGutter.modifiedBackground": "--moonlight-dark-blue60",
-    "editorGutter.addedBackground": "--moonlight-green60",
-    "editorGutter.deletedBackground": "--moonlight-dark-red60",
-    "tab.activeBorder": "--moonlight-dark-blue",
+    "editorGutter.modifiedBackground": "--moonlight-blue66",
+    "editorGutter.addedBackground": "--moonlight-green66",
+    "editorGutter.deletedBackground": "--moonlight-dark-redaa",
+    "tab.activeBorder": "--moonlight-blue",
     "tab.activeModifiedBorder": "--moonlight-gray-7",
     "tab.unfocusedActiveBorder": "--moonlight-gray-7",
     "tab.activeForeground": "--moonlight-gray-10",
@@ -56,7 +63,7 @@
     "activityBar.background": "--moonlight-gray-3",
     "activityBar.border": "--moonlight-gray-460",
     "activityBar.foreground": "--moonlight-gray-9",
-    "activityBarBadge.background": "#5881ea",
+    "activityBarBadge.background": "--moonlight-dark-blue",
     "activityBarBadge.foreground": "#ffffff",
     "titleBar.activeBackground": "--moonlight-gray-3",
     "titleBar.activeForeground": "--moonlight-gray-10",
@@ -78,11 +85,12 @@
     "inputValidation.errorBorder": "--moonlight-dark-red50",
     "inputValidation.infoBackground": "#446bbb",
     "inputValidation.infoForeground": "#ffffff",
-    "inputValidation.infoBorder": "--moonlight-dark-blue50",
+    "inputValidation.infoBorder": "--moonlight-blue50",
     "inputValidation.warningBackground": "#ad7c43",
     "inputValidation.warningForeground": "#ffffff",
     "inputValidation.warningBorder": "--moonlight-yellow50",
-    "dropdown.background": "--moonlight-gray-4",
+    "dropdown.foreground": "--moonlight-gray-10",
+    "dropdown.background": "--moonlight-gray-5",
     "dropdown.border": "#00000066",
     "list.hoverForeground": "--moonlight-gray-10",
     "list.hoverBackground": "--moonlight-gray-3",
@@ -96,7 +104,7 @@
     "list.warningForeground": "--moonlight-yellowcc",
     "terminal.ansiWhite": "--moonlight-gray-10",
     "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "--moonlight-dark-blue",
+    "terminal.ansiBlue": "--moonlight-blue",
     "terminal.ansiCyan": "--moonlight-cyan",
     "terminal.ansiGreen": "--moonlight-green",
     "terminal.ansiMagenta": "--moonlight-pink",
@@ -104,7 +112,7 @@
     "terminal.ansiYellow": "--moonlight-yellow",
     "terminal.ansiBrightWhite": "--moonlight-gray-10",
     "terminal.ansiBrightBlack": "--moonlight-gray-7",
-    "terminal.ansiBrightBlue": "--moonlight-dark-blue",
+    "terminal.ansiBrightBlue": "--moonlight-blue",
     "terminal.ansiBrightCyan": "--moonlight-cyan",
     "terminal.ansiBrightGreen": "--moonlight-green",
     "terminal.ansiBrightMagenta": "--moonlight-pink",
@@ -112,7 +120,11 @@
     "terminal.ansiBrightYellow": "--moonlight-yellow",
     "scrollbarSlider.background": "--moonlight-gray-1020",
     "scrollbarSlider.hoverBackground": "--moonlight-gray-1010",
-    "scrollbarSlider.activeBackground": "--moonlight-dark-blue",
+    "scrollbarSlider.activeBackground": "--moonlight-blue",
+    "minimap.findMatchHighlight": "--moonlight-cyancc",
+    "minimap.selectionHighlight": "--moonlight-cyan33",
+    "minimapGutter.addedBackground": "--moonlight-green66",
+    "minimapGutter.modifiedBackground": "--moonlight-blue66",
     "editorSuggestWidget.background": "--moonlight-gray-2",
     "editorSuggestWidget.foreground": "--moonlight-gray-8",
     "editorSuggestWidget.highlightForeground": "--moonlight-cyan",
@@ -121,20 +133,21 @@
     "editorError.foreground": "--moonlight-dark-red",
     "editorWarning.foreground": "--moonlight-yellowcc",
     "editorWidget.background": "--moonlight-gray-3",
-    "editorWidget.resizeBorder": "--moonlight-dark-blue",
+    "editorWidget.resizeBorder": "--moonlight-blue",
     "editorMarkerNavigation.background": "--moonlight-gray-1005",
     "widget.shadow": "#00000033",
     "panel.border": "#00000033",
     "panel.background": "--moonlight-gray-3",
     "panel.dropBackground": "--moonlight-gray-10",
-    "panelTitle.inactiveForeground": "--moonlight-gray-10",
+    "panelTitle.inactiveForeground": "--moonlight-gray-7",
     "panelTitle.activeForeground": "--moonlight-gray-10",
-    "panelTitle.activeBorder": "--moonlight-dark-blue",
+    "panelTitle.activeBorder": "--moonlight-blue",
+    "terminalCursor.foreground": "--moonlight-blue",
     "diffEditor.insertedTextBackground": "--moonlight-green15",
     "diffEditor.removedTextBackground": "--moonlight-dark-red20",
     "notifications.background": "--moonlight-gray-3",
     "notifications.foreground": "--moonlight-gray-10",
-    "notificationLink.foreground": "--moonlight-dark-blue",
+    "notificationLink.foreground": "--moonlight-blue",
     "badge.background": "#00000030",
     "badge.foreground": "--moonlight-gray-8",
     "button.background": "#4e80ffbb",
@@ -149,29 +162,29 @@
     "peekViewResult.matchHighlightBackground": "--moonlight-gray-750",
     "peekViewEditor.matchHighlightBackground": "--moonlight-gray-750",
     "debugToolBar.background": "--moonlight-gray-3",
-    "pickerGroup.foreground": "--moonlight-dark-blue",
+    "pickerGroup.foreground": "--moonlight-blue",
     "gitDecoration.deletedResourceForeground": "--moonlight-dark-reddd",
     "gitDecoration.conflictingResourceForeground": "--moonlight-yellowcc",
-    "gitDecoration.modifiedResourceForeground": "--moonlight-dark-blueee",
+    "gitDecoration.modifiedResourceForeground": "--moonlight-blueee",
     "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
     "gitDecoration.ignoredResourceForeground": "#777fabaa",
     "peekViewResult.selectionBackground": "--moonlight-gray-770",
     "breadcrumb.background": "--moonlight-gray-4",
     "breadcrumb.foreground": "--moonlight-gray-7",
     "breadcrumb.focusForeground": "--moonlight-gray-10",
-    "breadcrumb.activeSelectionForeground": "--moonlight-dark-blue",
+    "breadcrumb.activeSelectionForeground": "--moonlight-blue",
     "breadcrumbPicker.background": "--moonlight-gray-3",
     "menu.background": "--moonlight-gray-3",
     "menu.foreground": "--moonlight-gray-10",
     "menu.selectionBackground": "#00000050",
-    "menu.selectionForeground": "--moonlight-dark-blue",
+    "menu.selectionForeground": "--moonlight-blue",
     "menu.selectionBorder": "#00000030",
     "menu.separatorBackground": "--moonlight-gray-10",
     "menubar.selectionBackground": "#00000030",
-    "menubar.selectionForeground": "--moonlight-dark-blue",
+    "menubar.selectionForeground": "--moonlight-blue",
     "menubar.selectionBorder": "#00000030",
     "settings.dropdownForeground": "--moonlight-gray-10",
-    "settings.dropdownBackground": "#2c314b",
+    "settings.dropdownBackground": "--moonlight-gray-5",
     "settings.dropdownBorder": "--moonlight-gray-2",
     "settings.numberInputForeground": "--moonlight-gray-10",
     "settings.numberInputBackground": "--moonlight-gray-2",
@@ -179,8 +192,8 @@
     "settings.textInputForeground": "--moonlight-gray-10",
     "settings.textInputBackground": "--moonlight-gray-2",
     "settings.textInputBorder": "#00000066",
-    "settings.headerForeground": "--moonlight-dark-blue",
-    "settings.modifiedItemIndicator": "--moonlight-dark-blue",
+    "settings.headerForeground": "--moonlight-blue",
+    "settings.modifiedItemIndicator": "--moonlight-blue",
     "settings.checkboxBackground": "--moonlight-gray-2",
     "settings.checkboxForeground": "--moonlight-gray-10",
     "settings.checkboxBorder": "#00000066"
@@ -216,6 +229,7 @@
         "support.variable.dom",
         "support.constant.math",
         "support.type.object.module",
+        "support.variable.object.process",
         "support.constant.json"
       ],
       "settings": {
@@ -314,6 +328,7 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "meta.property-list",
         "meta.brace.square",
         "keyword.other.template",
         "keyword.other.substitution"
@@ -344,7 +359,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -531,7 +546,7 @@
         "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -565,7 +580,7 @@
       "scope": ["entity.name.method.js"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -575,7 +590,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -618,7 +633,7 @@
       "name": "CSS ID's",
       "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -629,6 +644,13 @@
       ],
       "settings": {
         "foreground": "--moonlight-teal"
+      }
+    },
+    {
+      "name": "CSS Property value",
+      "scope": ["support.constant.property-value"],
+      "settings": {
+        "foreground": "--moonlight-pink"
       }
     },
     {
@@ -712,7 +734,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -738,7 +760,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -792,7 +814,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
@@ -906,7 +928,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "--moonlight-dark-blue"
+        "foreground": "--moonlight-blue"
       }
     },
     {
