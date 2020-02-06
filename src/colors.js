@@ -17,6 +17,7 @@ module.exports = {
   '--moonlight-indigo': '#7a88cf',
   '--moonlight-bright-cyan': '#b4f9f8',
 
+  '--moonlight-gray-10-alt': '#bcc4d6',
   '--moonlight-gray-10': '#c8d3f5',
   '--moonlight-gray-9': '#b4c2f0',
   '--moonlight-gray-8': '#a9b8e8',
