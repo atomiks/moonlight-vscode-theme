@@ -102,6 +102,8 @@
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "--moonlight-cyan",
     "list.warningForeground": "--moonlight-yellowcc",
+    "terminal.selectionBackground": "--moonlight-gray-1055",
+    "terminal.foreground": "--moonlight-gray-10",
     "terminal.ansiWhite": "--moonlight-gray-10",
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "--moonlight-blue",
