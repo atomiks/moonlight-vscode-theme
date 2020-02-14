@@ -153,7 +153,7 @@
     "notificationLink.foreground": "--moonlight-blue",
     "badge.background": "#00000030",
     "badge.foreground": "--moonlight-gray-8",
-    "button.background": "#4e80ffbb",
+    "button.background": "--moonlight-dark-blue",
     "extensionButton.prominentBackground": "--moonlight-dark-blue",
     "extensionButton.prominentHoverBackground": "--moonlight-sky-bluecc",
     "peekView.border": "#00000030",
