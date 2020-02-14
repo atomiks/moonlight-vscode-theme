@@ -454,7 +454,8 @@
         "string.alias.graphql",
         "string.unquoted.graphql",
         "string.unquoted.alias.graphql",
-        "meta.field.declaration.ts variable.object.property"
+        "meta.field.declaration.ts variable.object.property",
+        "variable.object.property"
       ],
       "settings": {
         "foreground": "--moonlight-teal"
