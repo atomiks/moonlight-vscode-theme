@@ -148,7 +148,7 @@
     "terminalCursor.foreground": "--moonlight-blue",
     "diffEditor.insertedTextBackground": "--moonlight-green15",
     "diffEditor.removedTextBackground": "--moonlight-dark-red20",
-    "notifications.background": "--moonlight-gray-3",
+    "notifications.background": "--moonlight-gray-2",
     "notifications.foreground": "--moonlight-gray-10",
     "notificationLink.foreground": "--moonlight-blue",
     "badge.background": "#00000030",
