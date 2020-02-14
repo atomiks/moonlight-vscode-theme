@@ -16,7 +16,8 @@
     "Night Theme"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "build": "node build"
   },
   "galleryBanner": {
     "color": "#061526",
