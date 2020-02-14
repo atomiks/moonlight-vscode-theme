@@ -4,7 +4,7 @@
   "colors": {
     "foreground": "--moonlight-gray-10",
     "focusBorder": "--moonlight-blue",
-    "contrastBorder": "#00000055",
+    "contrastBorder": "#00000000",
     "editorCursor.foreground": "--moonlight-blue",
     "editorRuler.foreground": "--moonlight-gray-6bb",
     "scrollbar.shadow": "#00000022",
@@ -154,7 +154,7 @@
     "badge.foreground": "--moonlight-gray-8",
     "button.background": "#4e80ffbb",
     "extensionButton.prominentBackground": "--moonlight-green90",
-    "extensionButton.prominentHoverBackground": "--moonlight-green",
+    "extensionButton.prominentHoverBackground": "--moonlight-greenaa",
     "peekView.border": "#00000030",
     "peekViewEditor.background": "--moonlight-gray-1005",
     "peekViewTitle.background": "--moonlight-gray-1005",
