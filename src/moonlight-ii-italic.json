@@ -8,6 +8,7 @@
     "editorCursor.foreground": "--moonlight-blue",
     "editorRuler.foreground": "--moonlight-gray-6bb",
     "scrollbar.shadow": "#00000022",
+    "tree.indentGuidesStroke": "--moonlight-gray-766",
     "editorLink.activeForeground": "--moonlight-gray-10",
     "selection.background": "--moonlight-gray-10",
     "progressBar.background": "--moonlight-blue",
