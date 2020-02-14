@@ -170,6 +170,8 @@
     "gitDecoration.modifiedResourceForeground": "--moonlight-blueee",
     "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
     "gitDecoration.ignoredResourceForeground": "#777fabaa",
+    "gitlens.trailingLineForegroundColor": "#828bb8aa",
+    "editorCodeLens.foreground": "#a9b8e8",
     "peekViewResult.selectionBackground": "--moonlight-gray-770",
     "breadcrumb.background": "--moonlight-gray-4",
     "breadcrumb.foreground": "--moonlight-gray-7",
