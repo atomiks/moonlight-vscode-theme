@@ -100,7 +100,7 @@
     "list.inactiveSelectionForeground": "--moonlight-gray-10",
     "list.inactiveSelectionBackground": "#292e46",
     "list.focusBackground": "--moonlight-gray-1",
-    "list.focusForeground": "#ffffff",
+    "list.focusForeground": "--moonlight-gray-10",
     "list.highlightForeground": "--moonlight-cyan",
     "list.warningForeground": "--moonlight-yellowcc",
     "terminal.foreground": "--moonlight-gray-10-alt",
