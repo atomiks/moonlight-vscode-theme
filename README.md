@@ -1,6 +1,6 @@
 # Moonlight 🌌
 
-<img src="https://github.com/atomiks/moonlight-vscode-theme/raw/master/preview.jpg" alt="Preview">
+<img src="https://github.com/atomiks/moonlight-vscode-theme/raw/master/preview.png" alt="Preview">
 
 ## Variants
 
