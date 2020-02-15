@@ -1,3 +1,16 @@
+## 0.10.3
+
+### Moonlight II
+
+- Improve GitLens colors
+- Darken notification background color
+- Tweak `gray-3`
+- Improve scrollbar colors
+- Fix `contrastBorder`
+- Fix button colors
+- Fix tree indent stroke color
+- Darken checkbox background color
+
 ## 0.10.2
 
 ### Moonlight II
