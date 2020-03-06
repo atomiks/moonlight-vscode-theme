@@ -19,7 +19,7 @@
 
 ## How do I enable the glow seen in the screenshot?
 
-[Read instructions here](https://github.com/robb0wen/synthwave-vscode#to-enable-the-glow).
+[Read instructions here](https://github.com/robb0wen/synthwave-vscode/blob/ec7e97eba96febbcf069256a6513ecedd0b187ae/README.md#to-enable-the-glow).
 
 `moonlight.css` stylesheet:
 
