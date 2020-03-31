@@ -36,3 +36,7 @@
 ```
 
 ⚠️ The `mtk` token numbers (11 and 12 above – which represent the two function colors) can change when the theme or VS Code version is updated, causing incorrect colors. When new releases arrive, make sure to visit the README for the updated stylesheet or make an issue if they change due to VS Code – I will update them accordingly.
+
+## Related Packages
+
+- [github-moonlight](https://github.com/Brettm12345/github-moonlight)
