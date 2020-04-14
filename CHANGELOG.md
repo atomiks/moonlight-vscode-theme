@@ -1,3 +1,11 @@
+## 0.10.4
+
+### Moonlight II
+
+- Made `sky-blue` color darker and more obviously different from `cyan`
+- Made `badge` color the same as `activityBarBadge` (`dark-blue`)
+- Made `dark-blue` darker
+
 ## 0.10.3
 
 ### Moonlight II
