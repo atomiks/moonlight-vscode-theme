@@ -2,7 +2,7 @@ module.exports = {
   '--moonlight-desaturated-gray': '#7f85a3',
   '--moonlight-dark-blue': '#4976eb',
   '--moonlight-blue': '#82aaff',
-  '--moonlight-sky-blue': '#50c4fa',
+  '--moonlight-sky-blue': '#65bcff',
   '--moonlight-cyan': '#86e1fc',
   '--moonlight-red': '#ff757f',
   '--moonlight-dark-red': '#ff5370',
