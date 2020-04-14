@@ -151,7 +151,7 @@
     "notifications.background": "--moonlight-gray-2",
     "notifications.foreground": "--moonlight-gray-10",
     "notificationLink.foreground": "--moonlight-blue",
-    "badge.background": "#00000030",
+    "badge.background": "--moonlight-gray-1",
     "badge.foreground": "--moonlight-gray-8",
     "button.background": "--moonlight-dark-blue",
     "button.hoverBackground": "--moonlight-sky-bluecc",
