@@ -58,7 +58,7 @@
     "statusBar.border": "--moonlight-gray-2",
     "statusBar.background": "--moonlight-gray-3",
     "statusBar.foreground": "--moonlight-gray-7",
-    "statusBar.debuggingBackground": "#baacff",
+    "statusBar.debuggingBackground": "--moonlight-blue",
     "statusBar.debuggingForeground": "--moonlight-gray-10",
     "statusBarItem.hoverBackground": "--moonlight-gray-720",
     "activityBar.background": "--moonlight-gray-3",
