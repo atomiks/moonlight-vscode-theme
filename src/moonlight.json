@@ -119,11 +119,7 @@
     },
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#ff757f"
       }
@@ -177,32 +173,21 @@
     },
     {
       "name": "Object Literal Key",
-      "scope": [
-        "meta.object-literal.key",
-        "entity.name.label.js",
-        "string.unquoted"
-      ],
+      "scope": ["meta.object-literal.key", "entity.name.label.js", "string.unquoted"],
       "settings": {
         "foreground": "#c7f59b"
       }
     },
     {
       "name": "DOM",
-      "scope": [
-        "support.variable.dom",
-        "support.constant.json",
-        "support.constant.math"
-      ],
+      "scope": ["support.variable.dom", "support.constant.json", "support.constant.math"],
       "settings": {
         "foreground": "#ffdb8e"
       }
     },
     {
       "name": "Node",
-      "scope": [
-        "support.variable.object.node",
-        "support.variable.object.process"
-      ],
+      "scope": ["support.variable.object.node", "support.variable.object.process"],
       "settings": {
         "foreground": "#ffd88c"
       }
@@ -216,12 +201,7 @@
     },
     {
       "name": "Constant, Function Argument, Tag Attribute, Embedded",
-      "scope": [
-        "constant.language",
-        "support.constant",
-        "constant.escape",
-        "keyword.other.unit"
-      ],
+      "scope": ["constant.language", "support.constant", "constant.escape", "keyword.other.unit"],
       "settings": {
         "foreground": "#ff8a8a"
       }
@@ -235,11 +215,7 @@
     },
     {
       "name": "Number",
-      "scope": [
-        "constant.numeric",
-        "constant.language.infinity",
-        "constant.language.nan"
-      ],
+      "scope": ["constant.numeric", "constant.language.infinity", "constant.language.nan"],
       "settings": {
         "foreground": "#ff9668"
       }
@@ -253,10 +229,7 @@
     },
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-      "scope": [
-        "variable.parameter.function.language.special",
-        "variable.parameter"
-      ],
+      "scope": ["variable.parameter.function.language.special", "variable.parameter"],
       "settings": {
         "foreground": "#f3c1ff"
       }
@@ -327,11 +300,7 @@
     },
     {
       "name": "Sub-methods",
-      "scope": [
-        "entity.name.module.js",
-        "variable.import.parameter.js",
-        "variable.other.class.js"
-      ],
+      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -345,10 +314,7 @@
     },
     {
       "name": "meta.method.js",
-      "scope": [
-        "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
-      ],
+      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
       "settings": {
         "foreground": "#70b0ff"
       }
@@ -427,10 +393,7 @@
     },
     {
       "name": "CSS Keyframes Name",
-      "scope": [
-        "variable.parameter.keyframe-list",
-        "meta.at-rule.keyframes entity.name.function"
-      ],
+      "scope": ["variable.parameter.keyframe-list", "meta.at-rule.keyframes entity.name.function"],
       "settings": {
         "foreground": "#f989d3"
       }
@@ -534,18 +497,14 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "foreground": "#FF5370"
       }
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
+      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
         "foreground": "#70b0ff"
       }
@@ -737,10 +696,7 @@
     },
     {
       "name": "Markdown - Fenced Bode Block Variable",
-      "scope": [
-        "markup.fenced_code.block.markdown",
-        "markup.inline.raw.string.markdown"
-      ],
+      "scope": ["markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
       "settings": {
         "foreground": "#a7c6e8"
       }
@@ -835,7 +791,7 @@
     "titleBar.border": "#161a2a",
     "sideBarTitle.foreground": "#aab3e5",
     "sideBarSectionHeader.background": "#1e2132",
-    "sideBarSectionHeader.border": "#21233760",
+    "sideBarSectionHeader.border": "#aab3e520",
     "input.background": "#191a2a",
     "input.foreground": "#e4f3fa",
     "input.focus": "#34d3fb",
@@ -878,6 +834,7 @@
     "terminal.ansiBrightMagenta": "#baacff",
     "terminal.ansiBrightRed": "#FF5370",
     "terminal.ansiBrightYellow": "#ffdb8e",
+    "terminal.border": "#aab3e520",
     "scrollbarSlider.background": "#aab3e520",
     "scrollbarSlider.hoverBackground": "#aab3e510",
     "scrollbarSlider.activeBackground": "#74a0f1",
