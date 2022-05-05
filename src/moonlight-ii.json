@@ -229,15 +229,7 @@
         "foreground": "--moonlight-gray-10"
       }
     },
-    {
-      "name": "Go constant placeholder",
-      "scope": [
-        "source.go constant.other.placeholder"
-      ],
-      "settings": {
-        "foreground": "--moonlight-light-red"
-      }
-    },
+
     {
       "name": "DOM Variables",
       "scope": [
@@ -261,15 +253,7 @@
         "foreground": "--moonlight-desaturated-gray"
       }
     },
-    {
-      "name": "Go language constants",
-      "scope": [
-        "source.go constant.language"
-      ],
-      "settings": {
-        "foreground": "--moonlight-purple"
-      }
-    },
+
     {
       "name": "PHP Constants",
       "scope": [
@@ -384,20 +368,7 @@
       ],
       "settings": {}
     },
-    {
-      "name": "Go package name",
-      "scope": "source.go entity.name.package",
-      "settings": {
-        "foreground": "--moonlight-gray-10"
-      }
-    },
-    {
-      "name": "Go package imports",
-      "scope": "source.go entity.name.import",
-      "settings": {
-        "foreground": "--moonlight-green'"
-      }
-    },
+
     {
       "name": "Tag",
       "scope": [
@@ -465,25 +436,7 @@
         "foreground": "--moonlight-light-red"
       }
     },
-    {
-      "name": "Go storage type",
-      "scope": [
-        "source.go storage.type"
-      ],
-      "settings": {
-        "foreground": "--moonlight-teal"
-      }
-    },
-    {
-      "name": "Go variable declaration and assignment",
-      "scope": [
-        "source.go variable.other.assignment",
-        "source.go variable.other.declaration"
-      ],
-      "settings": {
-        "foreground": "--moonlight-light-red"
-      }
-    },
+
     {
       "name": "Number, Boolean",
       "scope": [
@@ -1158,6 +1111,57 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "--moonlight-purple"
+      }
+    },
+   {
+      "name": "Go package name",
+      "scope": "source.go entity.name.package",
+      "settings": {
+        "foreground": "--moonlight-gray-10"
+      }
+    },
+    {
+      "name": "Go package imports",
+      "scope": "source.go entity.name.import",
+      "settings": {
+        "foreground": "--moonlight-green"
+      }
+    },
+    {
+      "name": "Go constant placeholder",
+      "scope": [
+        "source.go constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "--moonlight-light-red"
+      }
+    },
+    {
+      "name": "Go language constant",
+      "scope": [
+        "source.go constant.language"
+      ],
+      "settings": {
+        "foreground": "--moonlight-purple"
+      }
+    },
+    {
+      "name": "Go types",
+      "scope": [
+        "source.go storage.type"
+      ],
+      "settings": {
+        "foreground": "--moonlight-teal"
+      }
+    },
+    {
+      "name": "Go variable declaration and assignment",
+      "scope": [
+        "source.go variable.other.assignment",
+        "source.go variable.other.declaration"
+      ],
+      "settings": {
+        "foreground": "--moonlight-light-red"
       }
     }
   ]
