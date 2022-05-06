@@ -229,6 +229,7 @@
         "foreground": "--moonlight-gray-10"
       }
     },
+
     {
       "name": "DOM Variables",
       "scope": [
@@ -244,35 +245,48 @@
     },
     {
       "name": "Nil",
-      "scope": ["constant.language.undefined", "constant.language.null"],
+      "scope": [
+        "constant.language.undefined",
+        "constant.language.null"
+      ],
       "settings": {
         "foreground": "--moonlight-desaturated-gray"
       }
     },
+
     {
       "name": "PHP Constants",
-      "scope": ["constant.other.php"],
+      "scope": [
+        "constant.other.php"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
     },
     {
       "name": "Colors",
-      "scope": ["constant.other.color"],
+      "scope": [
+        "constant.other.color"
+      ],
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "--moonlight-dark-red"
       }
     },
     {
       "name": "Invalid deprecated",
-      "scope": ["invalid.deprecated"],
+      "scope": [
+        "invalid.deprecated"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -291,7 +305,10 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword.control", "storage"],
+      "scope": [
+        "keyword.control",
+        "storage"
+      ],
       "settings": {}
     },
     {
@@ -306,7 +323,10 @@
     },
     {
       "name": "Spread",
-      "scope": ["keyword.operator.spread", "keyword.operator.rest"],
+      "scope": [
+        "keyword.operator.spread",
+        "keyword.operator.rest"
+      ],
       "settings": {
         "foreground": "--moonlight-red",
         "fontStyle": "bold"
@@ -343,12 +363,19 @@
     },
     {
       "name": "Keyword Control",
-      "scope": ["keyword.control"],
+      "scope": [
+        "keyword.control"
+      ],
       "settings": {}
     },
+
     {
       "name": "Tag",
-      "scope": ["entity.name.tag", "meta.tag", "markup.deleted.git_gutter"],
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "markup.deleted.git_gutter"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
@@ -366,21 +393,29 @@
     },
     {
       "name": "Support Function",
-      "scope": ["support.function", "meta.function-call entity.name.function"],
+      "scope": [
+        "support.function",
+        "meta.function-call entity.name.function"
+      ],
       "settings": {
         "foreground": "--moonlight-sky-blue"
       }
     },
     {
       "name": "C-related Block Level Variables",
-      "scope": ["source.cpp meta.block variable.other"],
+      "scope": [
+        "source.cpp meta.block variable.other"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
@@ -401,6 +436,7 @@
         "foreground": "--moonlight-light-red"
       }
     },
+
     {
       "name": "Number, Boolean",
       "scope": [
@@ -444,7 +480,9 @@
     },
     {
       "name": "Object",
-      "scope": ["variable.other.object"],
+      "scope": [
+        "variable.other.object"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
@@ -465,7 +503,10 @@
     },
     {
       "name": "Nested Object Property",
-      "scope": ["meta.object.member", "variable.other.object.property"],
+      "scope": [
+        "meta.object.member",
+        "variable.other.object.property"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-8"
       }
@@ -483,14 +524,18 @@
     },
     {
       "name": "Haskell Constants",
-      "scope": ["source.haskell constant.other.haskell"],
+      "scope": [
+        "source.haskell constant.other.haskell"
+      ],
       "settings": {
         "foreground": "--moonlight-light-red"
       }
     },
     {
       "name": "Haskell Imports",
-      "scope": ["source.haskell meta.import.haskell entity.name.namespace"],
+      "scope": [
+        "source.haskell meta.import.haskell entity.name.namespace"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-10"
       }
@@ -508,7 +553,9 @@
     },
     {
       "name": "Lambda Arrow",
-      "scope": ["storage.type.function"],
+      "scope": [
+        "storage.type.function"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -531,7 +578,9 @@
     },
     {
       "name": "Entity types",
-      "scope": ["support.type"],
+      "scope": [
+        "support.type"
+      ],
       "settings": {
         "foreground": "--moonlight-orange"
       }
@@ -565,14 +614,18 @@
     },
     {
       "name": "Language methods",
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
     },
     {
       "name": "entity.name.method.js",
-      "scope": ["entity.name.method.js"],
+      "scope": [
+        "entity.name.method.js"
+      ],
       "settings": {
         "foreground": "--moonlight-blue"
       }
@@ -589,7 +642,9 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
+      "scope": [
+        "entity.other.attribute-name"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -616,14 +671,18 @@
     },
     {
       "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
+      "scope": [
+        "entity.other.attribute-name.class"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
     },
     {
       "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
+      "scope": [
+        "source.sass keyword.control"
+      ],
       "settings": {
         "foreground": "--moonlight-blue"
       }
@@ -640,42 +699,54 @@
     },
     {
       "name": "CSS Property value",
-      "scope": ["support.constant.property-value"],
+      "scope": [
+        "support.constant.property-value"
+      ],
       "settings": {
         "foreground": "--moonlight-pink"
       }
     },
     {
       "name": "Inserted",
-      "scope": ["markup.inserted"],
+      "scope": [
+        "markup.inserted"
+      ],
       "settings": {
         "foreground": "--moonlight-green"
       }
     },
     {
       "name": "Deleted",
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.deleted"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
     },
     {
       "name": "Changed",
-      "scope": ["markup.changed"],
+      "scope": [
+        "markup.changed"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
     },
     {
       "name": "Regular Expressions",
-      "scope": ["string.regexp"],
+      "scope": [
+        "string.regexp"
+      ],
       "settings": {
         "foreground": "--moonlight-bright-cyan"
       }
     },
     {
       "name": "Regular Expressions - Punctuation",
-      "scope": ["punctuation.definition.group"],
+      "scope": [
+        "punctuation.definition.group"
+      ],
       "settings": {
         "foreground": "--moonlight-red"
       }
@@ -692,28 +763,38 @@
     },
     {
       "name": "Regular Expressions - Character Class Set",
-      "scope": ["constant.other.character-class.set.regexp"],
+      "scope": [
+        "constant.other.character-class.set.regexp"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
     },
     {
       "name": "Regular Expressions - Quantifier",
-      "scope": ["keyword.operator.quantifier.regexp"],
+      "scope": [
+        "keyword.operator.quantifier.regexp"
+      ],
       "settings": {
         "foreground": "--moonlight-pink"
       }
     },
     {
       "name": "Escape Characters",
-      "scope": ["constant.character.escape"],
+      "scope": [
+        "constant.character.escape"
+      ],
       "settings": {
         "foreground": "--moonlight-cyan"
       }
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
@@ -730,7 +811,9 @@
     },
     {
       "name": "CSS Units",
-      "scope": ["keyword.other.unit"],
+      "scope": [
+        "keyword.other.unit"
+      ],
       "settings": {
         "foreground": "--moonlight-dark-orange"
       }
@@ -809,7 +892,9 @@
     },
     {
       "name": "Plain Punctuation",
-      "scope": ["punctuation.definition.list_item.markdown"],
+      "scope": [
+        "punctuation.definition.list_item.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-7"
       }
@@ -829,14 +914,19 @@
     },
     {
       "name": "Markdown - Plain",
-      "scope": ["meta.jsx.children", "meta.embedded.block"],
+      "scope": [
+        "meta.jsx.children",
+        "meta.embedded.block"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-9"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
-      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -863,7 +953,9 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": ["markup.italic"],
+      "scope": [
+        "markup.italic"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "--moonlight-red"
@@ -871,7 +963,10 @@
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "--moonlight-red"
@@ -894,7 +989,9 @@
     },
     {
       "name": "Markup - Underline",
-      "scope": ["markup.underline"],
+      "scope": [
+        "markup.underline"
+      ],
       "settings": {
         "fontStyle": "underline",
         "foreground": "--moonlight-orange"
@@ -902,42 +999,54 @@
     },
     {
       "name": "Markdown - Blockquote",
-      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
+      "scope": [
+        "markup.quote punctuation.definition.blockquote.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-cyan"
       }
     },
     {
       "name": "Markup - Quote",
-      "scope": ["markup.quote"],
+      "scope": [
+        "markup.quote"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markdown - Link",
-      "scope": ["string.other.link.title.markdown"],
+      "scope": [
+        "string.other.link.title.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-blue"
       }
     },
     {
       "name": "Markdown - Link Description",
-      "scope": ["string.other.link.description.title.markdown"],
+      "scope": [
+        "string.other.link.description.title.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
     },
     {
       "name": "Markdown - Link Anchor",
-      "scope": ["constant.other.reference.link.markdown"],
+      "scope": [
+        "constant.other.reference.link.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-yellow"
       }
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block"],
+      "scope": [
+        "markup.raw.block"
+      ],
       "settings": {
         "foreground": "--moonlight-purple"
       }
@@ -954,14 +1063,18 @@
     },
     {
       "name": "Markdown - Fenced Language",
-      "scope": ["variable.language.fenced.markdown"],
+      "scope": [
+        "variable.language.fenced.markdown"
+      ],
       "settings": {
         "foreground": "--moonlight-cyan"
       }
     },
     {
       "name": "Markdown - Separator",
-      "scope": ["meta.separator"],
+      "scope": [
+        "meta.separator"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "--moonlight-cyan"
@@ -969,7 +1082,9 @@
     },
     {
       "name": "Markup - Table",
-      "scope": ["markup.table"],
+      "scope": [
+        "markup.table"
+      ],
       "settings": {
         "foreground": "--moonlight-gray-7"
       }
@@ -996,6 +1111,57 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "--moonlight-purple"
+      }
+    },
+   {
+      "name": "Go package name",
+      "scope": "source.go entity.name.package",
+      "settings": {
+        "foreground": "--moonlight-gray-10"
+      }
+    },
+    {
+      "name": "Go package imports",
+      "scope": "source.go entity.name.import",
+      "settings": {
+        "foreground": "--moonlight-green"
+      }
+    },
+    {
+      "name": "Go constant placeholder",
+      "scope": [
+        "source.go constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "--moonlight-light-red"
+      }
+    },
+    {
+      "name": "Go language constant",
+      "scope": [
+        "source.go constant.language"
+      ],
+      "settings": {
+        "foreground": "--moonlight-purple"
+      }
+    },
+    {
+      "name": "Go types",
+      "scope": [
+        "source.go storage.type"
+      ],
+      "settings": {
+        "foreground": "--moonlight-teal"
+      }
+    },
+    {
+      "name": "Go variable declaration and assignment",
+      "scope": [
+        "source.go variable.other.assignment",
+        "source.go variable.other.declaration"
+      ],
+      "settings": {
+        "foreground": "--moonlight-light-red"
       }
     }
   ]
