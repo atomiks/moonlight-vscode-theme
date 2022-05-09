@@ -17,6 +17,14 @@
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > Pick your Moonlight variant
 
+## Semantic highlighting
+
+Moonlight does not enable semantic highlighting by default, but it can be enabled in settings:
+
+```json
+"editor.semanticHighlighting.enabled": true
+```
+
 ## How do I enable the glow seen in the screenshot?
 
 [Read instructions here](https://github.com/robb0wen/synthwave-vscode/blob/ec7e97eba96febbcf069256a6513ecedd0b187ae/README.md#to-enable-the-glow).
