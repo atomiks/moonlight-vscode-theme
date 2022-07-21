@@ -12,6 +12,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#7e8eda"
       }
     },
@@ -323,6 +324,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#ffbd76"
       }
     },
