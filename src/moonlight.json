@@ -155,6 +155,7 @@
       "name": "Object",
       "scope": ["variable.other.object"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": ""
       }
     },
@@ -232,6 +233,7 @@
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": ["variable.parameter.function.language.special", "variable.parameter"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#f3c1ff"
       }
     },

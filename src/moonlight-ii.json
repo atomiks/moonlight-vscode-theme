@@ -214,6 +214,7 @@
         "string.quoted.docstring"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "--moonlight-indigo"
       }
     },
@@ -458,6 +459,7 @@
         "meta.function.parameter variable"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "--moonlight-pink"
       }
     },
@@ -484,6 +486,7 @@
         "variable.other.object"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "--moonlight-yellow"
       }
     },
@@ -646,6 +649,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "--moonlight-purple"
       }
     },
