@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import { useState } from 'react';
 import * as all from './module';
 
 /**
@@ -6,14 +6,14 @@ import * as all from './module';
  * @param {number} prop1
  * @param {string} prop2
  */
-function syntaxTests({prop1, prop2, ...rest}) {
+function syntaxTests({ prop1, prop2, ...rest }) {
   const boolean = true || false;
   const number = Infinity || NaN || 1e10 || 100000;
   const string = 'string';
   const template = `template literal ${prop1}`;
   const nil = null || undefined;
   const regex = /(regex.+)|[a-zA-Z]/gi;
-  const object = {type: {boolean}, value: number};
+  const object = { type: { boolean }, value: number };
   const array = [boolean, number, string, nil];
   const deepPropertyAccess = object.type.boolean;
   const special = this || arguments;

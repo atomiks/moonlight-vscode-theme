@@ -1,3 +1,21 @@
+## 0.11.0
+
+- Refreshed colors
+- Sync Moonlight editor UI colors with Moonlight II; both now actively supported
+- Fix inlay hint color tint
+- Enable semantic highlighting by default
+- [Moonlight II] Make string interpolation punctuation red
+
+## 0.10.6
+
+- Add semantic colors for Go (#37)
+- Fix selection and border color
+
+## 0.10.5
+
+- Change debugging background color for better contrast (#23)
+- Make borders in the sideBarSections and terminal split more visible (#32)
+
 ## 0.10.4
 
 ### Moonlight II
