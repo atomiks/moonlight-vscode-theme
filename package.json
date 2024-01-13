@@ -2,22 +2,19 @@
   "name": "moonlight",
   "displayName": "Moonlight",
   "description": "A VS Code theme with bubblegum colors on a moonlit background.",
-  "version": "0.10.6",
+  "version": "0.11.0",
   "publisher": "atomiks",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/atomiks/moonlight-vscode-theme"
   },
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Moonlight",
-    "Night Theme"
-  ],
+  "keywords": ["Theme", "Dark Theme", "Moonlight", "Night Theme"],
   "scripts": {
     "publish": "vsce publish",
-    "build": "node build"
+    "build": "bun scripts/build.ts",
+    "format": "npx @biomejs/biome format **/*.{ts,js} --write"
   },
   "galleryBanner": {
     "color": "#061526",
@@ -26,9 +23,7 @@
   "engines": {
     "vscode": "^1.17.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "icon": "icon.png",
   "contributes": {
     "themes": [
@@ -55,7 +50,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "vsce": "^1.71.0"
+    "@biomejs/biome": "^1.5.1",
+    "prettier": "^3.1.1",
+    "vsce": "^2.15.0"
   }
 }

@@ -1,209 +1,14 @@
 {
-  "name": "Moonlight II",
+  "$schema": "vscode://schemas/color-theme",
+  "name": "moonlight-ii",
   "type": "dark",
-  "colors": {
-    "foreground": "--moonlight-gray-10",
-    "focusBorder": "--moonlight-blueaa",
-    "contrastBorder": "--moonlight-gray-2",
-    "editorCursor.foreground": "--moonlight-blue",
-    "editorRuler.foreground": "--moonlight-gray-6bb",
-    "scrollbar.shadow": "#00000022",
-    "tree.indentGuidesStroke": "--moonlight-gray-766",
-    "editorLink.activeForeground": "--moonlight-gray-10",
-    "selection.background": "--moonlight-gray-5",
-    "progressBar.background": "--moonlight-blue",
-    "textLink.foreground": "--moonlight-sky-blue",
-    "textLink.activeForeground": "#b2dfff",
-    "editorLineNumber.foreground": "--moonlight-gray-6",
-    "editorLineNumber.activeForeground": "--moonlight-gray-7",
-    "editorBracketMatch.border": "--moonlight-bluebb",
-    "editorBracketMatch.background": "--moonlight-gray-4",
-    "editorWhitespace.foreground": "--moonlight-gray-1040",
-    "editor.background": "--moonlight-gray-4",
-    "editor.foreground": "--moonlight-gray-10",
-    "editor.lineHighlightBackground": "--moonlight-gray-5",
-    "editor.selectionBackground": "--moonlight-gray-750",
-    "editor.selectionHighlightBackground": "--moonlight-gray-6",
-    "editor.findMatchBackground": "--moonlight-gray-6",
-    "editor.findMatchBorder": "--moonlight-cyan",
-    "editor.findMatchHighlightBackground": "--moonlight-gray-6",
-    "editorOverviewRuler.findMatchForeground": "--moonlight-cyanbb",
-    "editorOverviewRuler.errorForeground": "--moonlight-redcc",
-    "editorOverviewRuler.infoForeground": "--moonlight-sky-blue66",
-    "editorOverviewRuler.warningForeground": "--moonlight-yellowcc",
-    "editorOverviewRuler.modifiedForeground": "--moonlight-blue66",
-    "editorOverviewRuler.addedForeground": "--moonlight-green66",
-    "editorOverviewRuler.deletedForeground": "--moonlight-light-red66",
-    "editorOverviewRuler.bracketMatchForeground": "--moonlight-dark-bluebb",
-    "editorOverviewRuler.border": "--moonlight-gray-4",
-    "editorHoverWidget.background": "#1b1d2c",
-    "editorHoverWidget.border": "#000000aa",
-    "editorIndentGuide.background": "--moonlight-gray-6bb",
-    "editorIndentGuide.activeBackground": "--moonlight-gray-7aa",
-    "editorGroupHeader.tabsBackground": "--moonlight-gray-3",
-    "editorGroup.border": "--moonlight-gray-2",
-    "editorGutter.modifiedBackground": "--moonlight-blue66",
-    "editorGutter.addedBackground": "--moonlight-green66",
-    "editorGutter.deletedBackground": "--moonlight-dark-redaa",
-    "tab.activeBorder": "--moonlight-blue",
-    "tab.activeModifiedBorder": "--moonlight-gray-7",
-    "tab.unfocusedActiveBorder": "--moonlight-gray-7",
-    "tab.activeForeground": "--moonlight-gray-10",
-    "tab.activeBackground": "--moonlight-gray-4",
-    "tab.inactiveForeground": "--moonlight-gray-7",
-    "tab.inactiveBackground": "--moonlight-gray-3",
-    "tab.unfocusedActiveForeground": "--moonlight-gray-10",
-    "tab.border": "--moonlight-gray-2",
-    "statusBar.noFolderBackground": "--moonlight-gray-4",
-    "statusBar.border": "--moonlight-gray-2",
-    "statusBar.background": "--moonlight-gray-3",
-    "statusBar.foreground": "--moonlight-gray-7",
-    "statusBar.debuggingBackground": "--moonlight-blue",
-    "statusBar.debuggingForeground": "--moonlight-gray-10",
-    "statusBarItem.hoverBackground": "--moonlight-gray-720",
-    "activityBar.background": "--moonlight-gray-3",
-    "activityBar.border": "--moonlight-gray-460",
-    "activityBar.foreground": "--moonlight-gray-9",
-    "activityBarBadge.background": "--moonlight-dark-blue",
-    "activityBarBadge.foreground": "#ffffff",
-    "titleBar.activeBackground": "--moonlight-gray-3",
-    "titleBar.activeForeground": "--moonlight-gray-10",
-    "titleBar.inactiveBackground": "--moonlight-gray-3",
-    "titleBar.inactiveForeground": "--moonlight-gray-7",
-    "sideBar.background": "--moonlight-gray-3",
-    "sideBar.foreground": "--moonlight-gray-7",
-    "sideBar.border": "--moonlight-gray-2",
-    "titleBar.border": "--moonlight-gray-2",
-    "sideBarTitle.foreground": "--moonlight-gray-10",
-    "sideBarSectionHeader.background": "--moonlight-gray-3",
-    "sideBarSectionHeader.border": "--moonlight-gray-5",
-    "input.background": "--moonlight-gray-2",
-    "input.foreground": "--moonlight-gray-10",
-    "input.placeholderForeground": "--moonlight-gray-10aa",
-    "input.border": "#00000066",
-    "inputValidation.errorBackground": "#c53b53",
-    "inputValidation.errorForeground": "#ffffff",
-    "inputValidation.errorBorder": "--moonlight-dark-red50",
-    "inputValidation.infoBackground": "#446bbb",
-    "inputValidation.infoForeground": "#ffffff",
-    "inputValidation.infoBorder": "--moonlight-blue50",
-    "inputValidation.warningBackground": "#ad7c43",
-    "inputValidation.warningForeground": "#ffffff",
-    "inputValidation.warningBorder": "--moonlight-yellow50",
-    "dropdown.foreground": "--moonlight-gray-10",
-    "dropdown.background": "--moonlight-gray-5",
-    "dropdown.border": "#00000066",
-    "list.hoverForeground": "--moonlight-gray-10",
-    "list.hoverBackground": "--moonlight-gray-3",
-    "list.activeSelectionBackground": "#383e5c",
-    "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveSelectionForeground": "--moonlight-gray-10",
-    "list.inactiveSelectionBackground": "#292e46",
-    "list.focusBackground": "--moonlight-gray-1",
-    "list.focusForeground": "--moonlight-gray-10",
-    "list.highlightForeground": "--moonlight-cyan",
-    "list.warningForeground": "--moonlight-yellowcc",
-    "terminal.foreground": "--moonlight-gray-10-alt",
-    "terminal.selectionBackground": "--moonlight-gray-1044",
-    "terminal.ansiWhite": "--moonlight-gray-10",
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "--moonlight-blue",
-    "terminal.ansiCyan": "--moonlight-cyan",
-    "terminal.ansiGreen": "--moonlight-green",
-    "terminal.ansiMagenta": "--moonlight-pink",
-    "terminal.ansiRed": "--moonlight-red",
-    "terminal.ansiYellow": "--moonlight-yellow",
-    "terminal.ansiBrightWhite": "--moonlight-gray-10",
-    "terminal.ansiBrightBlack": "--moonlight-gray-7",
-    "terminal.ansiBrightBlue": "--moonlight-blue",
-    "terminal.ansiBrightCyan": "--moonlight-cyan",
-    "terminal.ansiBrightGreen": "--moonlight-green",
-    "terminal.ansiBrightMagenta": "--moonlight-pink",
-    "terminal.ansiBrightRed": "--moonlight-red",
-    "terminal.ansiBrightYellow": "--moonlight-yellow",
-    "terminal.border": "--moonlight-gray-5",
-    "scrollbarSlider.background": "--moonlight-gray-730",
-    "scrollbarSlider.hoverBackground": "--moonlight-gray-830",
-    "scrollbarSlider.activeBackground": "--moonlight-blue",
-    "minimap.findMatchHighlight": "--moonlight-cyancc",
-    "minimap.selectionHighlight": "--moonlight-cyan33",
-    "minimapGutter.addedBackground": "--moonlight-green66",
-    "minimapGutter.modifiedBackground": "--moonlight-blue66",
-    "editorSuggestWidget.background": "--moonlight-gray-2",
-    "editorSuggestWidget.foreground": "--moonlight-gray-8",
-    "editorSuggestWidget.highlightForeground": "--moonlight-cyan",
-    "editorSuggestWidget.selectedBackground": "--moonlight-gray-5",
-    "editorSuggestWidget.border": "#00000033",
-    "editorError.foreground": "--moonlight-dark-red",
-    "editorWarning.foreground": "--moonlight-yellowcc",
-    "editorWidget.background": "--moonlight-gray-3",
-    "editorWidget.resizeBorder": "--moonlight-blue",
-    "editorMarkerNavigation.background": "--moonlight-gray-1005",
-    "widget.shadow": "#00000033",
-    "panel.border": "#00000033",
-    "panel.background": "--moonlight-gray-3",
-    "panel.dropBackground": "--moonlight-gray-10",
-    "panelTitle.inactiveForeground": "--moonlight-gray-7",
-    "panelTitle.activeForeground": "--moonlight-gray-10",
-    "panelTitle.activeBorder": "--moonlight-blue",
-    "terminalCursor.foreground": "--moonlight-blue",
-    "diffEditor.insertedTextBackground": "--moonlight-green15",
-    "diffEditor.removedTextBackground": "--moonlight-dark-red20",
-    "notifications.background": "--moonlight-gray-2",
-    "notifications.foreground": "--moonlight-gray-10",
-    "notificationLink.foreground": "--moonlight-blue",
-    "badge.background": "--moonlight-dark-blue",
-    "badge.foreground": "#ffffff",
-    "button.background": "--moonlight-dark-blue",
-    "button.hoverBackground": "--moonlight-sky-bluecc",
-    "extensionButton.prominentBackground": "--moonlight-dark-blue",
-    "extensionButton.prominentHoverBackground": "--moonlight-sky-bluecc",
-    "peekView.border": "#00000030",
-    "peekViewEditor.background": "--moonlight-gray-1005",
-    "peekViewTitle.background": "--moonlight-gray-1005",
-    "peekViewResult.background": "--moonlight-gray-1005",
-    "peekViewEditorGutter.background": "--moonlight-gray-1005",
-    "peekViewTitleDescription.foreground": "--moonlight-gray-1060",
-    "peekViewResult.matchHighlightBackground": "--moonlight-gray-750",
-    "peekViewEditor.matchHighlightBackground": "--moonlight-gray-750",
-    "debugToolBar.background": "--moonlight-gray-3",
-    "pickerGroup.foreground": "--moonlight-blue",
-    "gitDecoration.deletedResourceForeground": "--moonlight-dark-reddd",
-    "gitDecoration.conflictingResourceForeground": "--moonlight-yellowcc",
-    "gitDecoration.modifiedResourceForeground": "--moonlight-blueee",
-    "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
-    "gitDecoration.ignoredResourceForeground": "#777fabaa",
-    "gitlens.trailingLineForegroundColor": "--moonlight-gray-7aa",
-    "editorCodeLens.foreground": "--moonlight-gray-7",
-    "peekViewResult.selectionBackground": "--moonlight-gray-770",
-    "breadcrumb.background": "--moonlight-gray-4",
-    "breadcrumb.foreground": "--moonlight-gray-7",
-    "breadcrumb.focusForeground": "--moonlight-gray-10",
-    "breadcrumb.activeSelectionForeground": "--moonlight-blue",
-    "breadcrumbPicker.background": "--moonlight-gray-3",
-    "menu.background": "--moonlight-gray-3",
-    "menu.foreground": "--moonlight-gray-10",
-    "menu.selectionBackground": "#00000050",
-    "menu.selectionForeground": "--moonlight-blue",
-    "menu.selectionBorder": "#00000030",
-    "menu.separatorBackground": "--moonlight-gray-10",
-    "menubar.selectionBackground": "#00000030",
-    "menubar.selectionForeground": "--moonlight-blue",
-    "menubar.selectionBorder": "#00000030",
-    "settings.dropdownForeground": "--moonlight-gray-10",
-    "settings.dropdownBackground": "--moonlight-gray-5",
-    "settings.dropdownBorder": "--moonlight-gray-2",
-    "settings.numberInputForeground": "--moonlight-gray-10",
-    "settings.numberInputBackground": "--moonlight-gray-2",
-    "settings.numberInputBorder": "#00000066",
-    "settings.textInputForeground": "--moonlight-gray-10",
-    "settings.textInputBackground": "--moonlight-gray-2",
-    "settings.textInputBorder": "#00000066",
-    "settings.headerForeground": "--moonlight-blue",
-    "settings.modifiedItemIndicator": "--moonlight-blue",
-    "settings.checkboxBackground": "--moonlight-gray-1",
-    "settings.checkboxForeground": "--moonlight-gray-10",
-    "settings.checkboxBorder": "#00000066"
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function": "{sky}",
+    "function.declaration": "{blue}",
+    "method.defaultLibrary": "{sky}",
+    "variable.defaultLibrary": "{yellow}",
+    "property.declaration": "{teal}"
   },
   "tokenColors": [
     {
@@ -214,7 +19,8 @@
         "string.quoted.docstring"
       ],
       "settings": {
-        "foreground": "--moonlight-indigo"
+        "foreground": "{saturatedGray}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
@@ -226,7 +32,7 @@
         "text.html"
       ],
       "settings": {
-        "foreground": "--moonlight-gray-10"
+        "foreground": "{gray10}"
       }
     },
 
@@ -240,55 +46,42 @@
         "support.constant.json"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Nil",
-      "scope": [
-        "constant.language.undefined",
-        "constant.language.null"
-      ],
+      "scope": ["constant.language.undefined", "constant.language.null"],
       "settings": {
-        "foreground": "--moonlight-desaturated-gray"
+        "foreground": "{desaturatedGray}"
       }
     },
-
     {
       "name": "PHP Constants",
-      "scope": [
-        "constant.other.php"
-      ],
+      "scope": ["constant.other.php"],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Colors",
-      "scope": [
-        "constant.other.color"
-      ],
+      "scope": ["constant.other.color"],
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
       "name": "Invalid",
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "--moonlight-dark-red"
+        "foreground": "{darkRed}"
       }
     },
     {
       "name": "Invalid deprecated",
-      "scope": [
-        "invalid.deprecated"
-      ],
+      "scope": ["invalid.deprecated"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
@@ -300,16 +93,16 @@
         "keyword.other.important"
       ],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
       "name": "Keyword, Storage",
-      "scope": [
-        "keyword.control",
-        "storage"
-      ],
-      "settings": {}
+      "scope": ["keyword.control", "storage"],
+      "settings": {
+        "fontStyle": "{fontStyle}"
+      }
     },
     {
       "name": "Interpolation",
@@ -318,17 +111,14 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Spread",
-      "scope": [
-        "keyword.operator.spread",
-        "keyword.operator.rest"
-      ],
+      "scope": ["keyword.operator.spread", "keyword.operator.rest"],
       "settings": {
-        "foreground": "--moonlight-red",
+        "foreground": "{red}",
         "fontStyle": "bold"
       }
     },
@@ -355,29 +145,34 @@
         "meta.property-list",
         "meta.brace.square",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "string.other.begin.code",
+        "string.other.end.code"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
+      }
+    },
+    {
+      "name": "Dark Punctuation",
+      "scope": ["punctuation.definition.template-expression"],
+      "settings": {
+        "foreground": "{red}"
       }
     },
     {
       "name": "Keyword Control",
-      "scope": [
-        "keyword.control"
-      ],
-      "settings": {}
+      "scope": ["keyword.control"],
+      "settings": {
+        "fontStyle": "{fontStyle}"
+      }
     },
 
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag", "markup.deleted.git_gutter"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
@@ -388,36 +183,28 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
       "name": "Support Function",
-      "scope": [
-        "support.function",
-        "meta.function-call entity.name.function"
-      ],
+      "scope": ["support.function", "meta.function-call entity.name.function"],
       "settings": {
-        "foreground": "--moonlight-sky-blue"
+        "foreground": "{sky}"
       }
     },
     {
       "name": "C-related Block Level Variables",
-      "scope": [
-        "source.cpp meta.block variable.other"
-      ],
+      "scope": ["source.cpp meta.block variable.other"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "name": "Other Variable, String Link",
-      "scope": [
-        "support.other.variable",
-        "string.other.link"
-      ],
+      "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
@@ -433,10 +220,9 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "--moonlight-light-red"
+        "foreground": "{lightRed}"
       }
     },
-
     {
       "name": "Number, Boolean",
       "scope": [
@@ -447,7 +233,7 @@
         "constant.language.nan"
       ],
       "settings": {
-        "foreground": "--moonlight-orange"
+        "foreground": "{orange}"
       }
     },
     {
@@ -458,7 +244,7 @@
         "meta.function.parameter variable"
       ],
       "settings": {
-        "foreground": "--moonlight-pink"
+        "foreground": "{pink}"
       }
     },
     {
@@ -471,20 +257,18 @@
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-        "meta.attribute-selector"
+        "meta.attribute-selector",
+        "markup.inline.raw.code"
       ],
       "settings": {
-        "fontStyle": "",
-        "foreground": "--moonlight-green"
+        "foreground": "{green}"
       }
     },
     {
       "name": "Object",
-      "scope": [
-        "variable.other.object"
-      ],
+      "scope": ["variable.other.object"],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
@@ -498,17 +282,14 @@
         "variable.object.property"
       ],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "{teal}"
       }
     },
     {
       "name": "Nested Object Property",
-      "scope": [
-        "meta.object.member",
-        "variable.other.object.property"
-      ],
+      "scope": ["meta.object.member", "variable.other.object.property"],
       "settings": {
-        "foreground": "--moonlight-gray-8"
+        "foreground": "{gray8}"
       }
     },
     {
@@ -519,25 +300,21 @@
         "support.variable.property.dom"
       ],
       "settings": {
-        "foreground": "--moonlight-gray-8"
+        "foreground": "{gray8}"
       }
     },
     {
       "name": "Haskell Constants",
-      "scope": [
-        "source.haskell constant.other.haskell"
-      ],
+      "scope": ["source.haskell constant.other.haskell"],
       "settings": {
-        "foreground": "--moonlight-light-red"
+        "foreground": "{lightRed}"
       }
     },
     {
       "name": "Haskell Imports",
-      "scope": [
-        "source.haskell meta.import.haskell entity.name.namespace"
-      ],
+      "scope": ["source.haskell meta.import.haskell entity.name.namespace"],
       "settings": {
-        "foreground": "--moonlight-gray-10"
+        "foreground": "{gray10}"
       }
     },
     {
@@ -548,16 +325,14 @@
         "source.java storage.type"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Lambda Arrow",
-      "scope": [
-        "storage.type.function"
-      ],
+      "scope": ["storage.type.function"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
@@ -573,16 +348,14 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Entity types",
-      "scope": [
-        "support.type"
-      ],
+      "scope": ["support.type"],
       "settings": {
-        "foreground": "--moonlight-orange"
+        "foreground": "{orange}"
       }
     },
     {
@@ -598,7 +371,7 @@
         "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
@@ -609,25 +382,23 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "name": "Language methods",
-      "scope": [
-        "variable.language"
-      ],
+      "scope": ["variable.language"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
       "name": "entity.name.method.js",
-      "scope": [
-        "entity.name.method.js"
-      ],
+      "scope": ["entity.name.method.js"],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
@@ -637,16 +408,15 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
       "name": "Attributes",
-      "scope": [
-        "entity.other.attribute-name"
-      ],
+      "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
@@ -656,7 +426,7 @@
         "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
@@ -666,25 +436,22 @@
         "meta.tag.metadata.doctype entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
       "name": "CSS Classes",
-      "scope": [
-        "entity.other.attribute-name.class"
-      ],
+      "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "CSS ID's",
-      "scope": [
-        "source.sass keyword.control"
-      ],
+      "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
@@ -694,61 +461,49 @@
         "entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "{teal}"
       }
     },
     {
       "name": "CSS Property value",
-      "scope": [
-        "support.constant.property-value"
-      ],
+      "scope": ["support.constant.property-value"],
       "settings": {
-        "foreground": "--moonlight-pink"
+        "foreground": "{pink}"
       }
     },
     {
       "name": "Inserted",
-      "scope": [
-        "markup.inserted"
-      ],
+      "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "--moonlight-green"
+        "foreground": "{green}"
       }
     },
     {
       "name": "Deleted",
-      "scope": [
-        "markup.deleted"
-      ],
+      "scope": ["markup.deleted"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "name": "Changed",
-      "scope": [
-        "markup.changed"
-      ],
+      "scope": ["markup.changed"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
       "name": "Regular Expressions",
-      "scope": [
-        "string.regexp"
-      ],
+      "scope": ["string.regexp"],
       "settings": {
-        "foreground": "--moonlight-bright-cyan"
+        "foreground": "{lightCyan}"
       }
     },
     {
       "name": "Regular Expressions - Punctuation",
-      "scope": [
-        "punctuation.definition.group"
-      ],
+      "scope": ["punctuation.definition.group"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
@@ -758,43 +513,33 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
       "name": "Regular Expressions - Character Class Set",
-      "scope": [
-        "constant.other.character-class.set.regexp"
-      ],
+      "scope": ["constant.other.character-class.set.regexp"],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Regular Expressions - Quantifier",
-      "scope": [
-        "keyword.operator.quantifier.regexp"
-      ],
+      "scope": ["keyword.operator.quantifier.regexp"],
       "settings": {
-        "foreground": "--moonlight-pink"
+        "foreground": "{pink}"
       }
     },
     {
       "name": "Escape Characters",
-      "scope": [
-        "constant.character.escape"
-      ],
+      "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "URL",
-      "scope": [
-        "*url*",
-        "*link*",
-        "*uri*"
-      ],
+      "scope": ["*url*", "*link*", "*uri*"],
       "settings": {
         "fontStyle": "underline"
       }
@@ -802,20 +547,20 @@
     {
       "name": "Decorators",
       "scope": [
+        "meta.decorator.js",
         "tag.decorator.js entity.name.tag.js",
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
       "name": "CSS Units",
-      "scope": [
-        "keyword.other.unit"
-      ],
+      "scope": ["keyword.other.unit"],
       "settings": {
-        "foreground": "--moonlight-dark-orange"
+        "foreground": "{darkOrange}"
       }
     },
     {
@@ -824,7 +569,7 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
@@ -833,7 +578,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
@@ -842,7 +587,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-sky-blue"
+        "foreground": "{purple}"
       }
     },
     {
@@ -851,7 +596,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{pink}"
       }
     },
     {
@@ -860,7 +605,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-pink"
+        "foreground": "{sky}"
       }
     },
     {
@@ -869,7 +614,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
@@ -878,7 +623,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "{red}"
       }
     },
     {
@@ -887,16 +632,14 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
       "name": "Plain Punctuation",
-      "scope": [
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["punctuation.definition.list_item.markdown"],
       "settings": {
-        "foreground": "--moonlight-gray-7"
+        "foreground": "{gray7}"
       }
     },
     {
@@ -909,26 +652,21 @@
         "punctuation.section.function"
       ],
       "settings": {
-        "foreground": "--moonlight-gray-9"
+        "foreground": "{gray8}"
       }
     },
     {
       "name": "Markdown - Plain",
-      "scope": [
-        "meta.jsx.children",
-        "meta.embedded.block"
-      ],
+      "scope": ["meta.jsx.children", "meta.embedded.block"],
       "settings": {
-        "foreground": "--moonlight-gray-9"
+        "foreground": "{gray9}"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
-      "scope": [
-        "text.html.markdown markup.inline.raw.markdown"
-      ],
+      "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
@@ -937,7 +675,7 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
@@ -948,28 +686,23 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Markup - Italic",
-      "scope": [
-        "markup.italic"
-      ],
+      "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "name": "Markup - Bold",
-      "scope": [
-        "markup.bold",
-        "markup.bold string"
-      ],
+      "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
@@ -984,71 +717,57 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "name": "Markup - Underline",
-      "scope": [
-        "markup.underline"
-      ],
+      "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "--moonlight-orange"
+        "foreground": "{orange}"
       }
     },
     {
       "name": "Markdown - Blockquote",
-      "scope": [
-        "markup.quote punctuation.definition.blockquote.markdown"
-      ],
+      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Markup - Quote",
-      "scope": [
-        "markup.quote"
-      ],
+      "scope": ["markup.quote"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markdown - Link",
-      "scope": [
-        "string.other.link.title.markdown"
-      ],
+      "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "{blue}"
       }
     },
     {
       "name": "Markdown - Link Description",
-      "scope": [
-        "string.other.link.description.title.markdown"
-      ],
+      "scope": ["string.other.link.description.title.markdown"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
       "name": "Markdown - Link Anchor",
-      "scope": [
-        "constant.other.reference.link.markdown"
-      ],
+      "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "name": "Markup - Raw Block",
-      "scope": [
-        "markup.raw.block"
-      ],
+      "scope": ["markup.raw.block"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
@@ -1058,100 +777,89 @@
         "markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Markdown - Fenced Language",
-      "scope": [
-        "variable.language.fenced.markdown"
-      ],
+      "scope": ["variable.language.fenced.markdown"],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Markdown - Separator",
-      "scope": [
-        "meta.separator"
-      ],
+      "scope": ["meta.separator"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "--moonlight-cyan"
+        "foreground": "{cyan}"
       }
     },
     {
       "name": "Markup - Table",
-      "scope": [
-        "markup.table"
-      ],
+      "scope": ["markup.table"],
       "settings": {
-        "foreground": "--moonlight-gray-7"
+        "foreground": "{gray7}"
       }
     },
     {
       "scope": "token.info-token",
       "settings": {
-        "foreground": "--moonlight-sky-blue"
+        "foreground": "{sky}"
       }
     },
     {
       "scope": "token.warn-token",
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "{yellow}"
       }
     },
     {
       "scope": "token.error-token",
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "{red}"
       }
     },
     {
       "scope": "token.debug-token",
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
-   {
+    {
       "name": "Go package name",
       "scope": "source.go entity.name.package",
       "settings": {
-        "foreground": "--moonlight-gray-10"
+        "foreground": "{gray10}"
       }
     },
     {
       "name": "Go package imports",
       "scope": "source.go entity.name.import",
       "settings": {
-        "foreground": "--moonlight-green"
+        "foreground": "{green}"
       }
     },
     {
       "name": "Go constant placeholder",
-      "scope": [
-        "source.go constant.other.placeholder"
-      ],
+      "scope": ["source.go constant.other.placeholder"],
       "settings": {
-        "foreground": "--moonlight-light-red"
+        "foreground": "{lightRed}"
       }
     },
     {
       "name": "Go language constant",
-      "scope": [
-        "source.go constant.language"
-      ],
+      "scope": ["source.go constant.language"],
       "settings": {
-        "foreground": "--moonlight-purple"
+        "foreground": "{purple}"
       }
     },
     {
       "name": "Go types",
-      "scope": [
-        "source.go storage.type"
-      ],
+      "scope": ["source.go storage.type"],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "{teal}",
+        "fontStyle": "{fontStyle}"
       }
     },
     {
@@ -1161,7 +869,7 @@
         "source.go variable.other.declaration"
       ],
       "settings": {
-        "foreground": "--moonlight-light-red"
+        "foreground": "{lightRed}"
       }
     }
   ]

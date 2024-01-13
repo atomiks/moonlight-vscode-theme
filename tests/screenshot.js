@@ -1,26 +1,23 @@
-import React from 'react';
-import Tippy from '@tippy.js/react';
+import * as React from 'react';
+import { Tooltip } from './Tooltip';
 
-function Counter({name}) {
-  const [count, setCount] = useState(0);
+function Counter({ name }) {
+  const [count, setCount] = React.useState(0);
 
   function onClick() {
-    setCount(count => count + 1);
+    setCount((count) => count + 1);
   }
 
   return (
     <>
-      <h2
-        style={{
-          color: 'teal',
-          fontSize: 24
-        }}
-      >
+      <h2 style={{ color: 'teal', fontSize: 24 }}>
         {name}'s count: {count}
       </h2>
-      <Tippy content="Add 1">
-        <button onClick={onClick}>+</button>
-      </Tippy>
+      <Tooltip content="Add 1">
+        <button type="button" onClick={onClick}>
+          +
+        </button>
+      </Tooltip>
     </>
   );
 }
