@@ -4,11 +4,17 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "function": "{sky}",
-    "function.declaration": "{blue}",
-    "method.defaultLibrary": "{sky}",
+    "function": "{blue}",
+    "method.declaration": "{blue}",
+    "function.defaultLibrary": "{sky}",
+    "method": "{sky}",
     "variable.defaultLibrary": "{yellow}",
-    "property.declaration": "{teal}"
+    "property": "{gray8}",
+    "property.declaration": "{teal}",
+    "property.readonly": "{lightOrange}",
+    "class.builtin": "{orange}",
+    "selfParameter": "{red}",
+    "module": "{gray10}"
   },
   "tokenColors": [
     {
@@ -150,7 +156,8 @@
         "string.other.end.code"
       ],
       "settings": {
-        "foreground": "{cyan}"
+        "foreground": "{cyan}",
+        "fontStyle": "normal"
       }
     },
     {
@@ -180,7 +187,8 @@
       "scope": [
         "entity.name.function",
         "variable.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "meta.function-call.generic"
       ],
       "settings": {
         "foreground": "{blue}"
