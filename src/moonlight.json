@@ -653,7 +653,7 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "{gray8}"
+        "foreground": "{cyan}"
       }
     },
     {
@@ -762,7 +762,7 @@
         "markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "{gray9}"
+        "foreground": "{cyan}"
       }
     },
     {

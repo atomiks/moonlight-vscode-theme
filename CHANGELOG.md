@@ -5,6 +5,7 @@
 - Fix semantic function coloring consistency for all langs
 - Fix non-semantic python function call coloring in some situations
 - Fix operators being italicised incorrectly in italics variants
+- Markdown improvements for original Moonlight
 
 ## 0.11.0
 
