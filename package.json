@@ -2,7 +2,7 @@
   "name": "moonlight",
   "displayName": "Moonlight",
   "description": "A VS Code theme with bubblegum colors on a moonlit background.",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "publisher": "atomiks",
   "type": "module",
   "license": "MIT",
