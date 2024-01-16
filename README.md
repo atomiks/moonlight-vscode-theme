@@ -19,8 +19,9 @@
 
 ## Semantic highlighting
 
-Semantic highlighting is enabled by default. To disable it, add the following to your settings.json:
+Semantic highlighting is enabled by default for `Moonlight`, but not `Moonlight II`. 
+To change the setting, add the following to your settings.json:
 
 ```json
-"editor.semanticHighlighting.enabled": false
+"editor.semanticHighlighting.enabled": true
 ```
