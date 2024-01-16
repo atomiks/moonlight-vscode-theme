@@ -1,5 +1,6 @@
 ## 0.11.1
 
+- Disable default semantic highlighting for Moonlight II
 - More closely match semantic tokens with original TM scopes (Python test)
 - Fix semantic function coloring consistency for all langs
 - Fix non-semantic python function call coloring in some situations
