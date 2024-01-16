@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "moonlight-ii",
   "type": "dark",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "semanticTokenColors": {
     "function": "{blue}",
     "method.declaration": "{blue}",
